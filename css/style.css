@@ -1,0 +1,15 @@
+.slanted-button:hover .slanted-button-background {
+  background: linear-gradient(182.9deg, #4a4a4a 0%, #232323 100%);
+  box-shadow: inset 0px 2px 0px #55ad57, inset 0px 4px 33px rgba(0, 0, 0, 0.09);
+}
+.slanted-button:hover .slanted-button-text {
+  color: #fff;
+}
+button[class^="slanted-button-"]:hover
+  span[class^="slanted-button-background-"] {
+  background: linear-gradient(182.9deg, #4a4a4a 0%, #232323 100%);
+  box-shadow: inset 0px 2px 0px #55ad57, inset 0px 4px 33px rgba(0, 0, 0, 0.09);
+}
+button[class^="slanted-button-"]:hover span[class^="slanted-button-text-"] {
+  color: #fff;
+}
