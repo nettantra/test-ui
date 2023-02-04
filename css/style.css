@@ -16,7 +16,7 @@ button[class*="slanted-button-"]:hover span[class*="slanted-button-text-"] {
 .footer-icon:hover>div {
   opacity: 0.5;
 }
-button[class*="footer-icon-"]:hover>img,
-button[class*="footer-icon-"]:hover>div {
+div[class*="footer-icon-"]:hover>img,
+div[class*="footer-icon-"]:hover>div {
   opacity: 0.5;
 }
