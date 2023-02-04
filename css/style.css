@@ -12,3 +12,11 @@ button[class*="slanted-button-"]:hover span[class*="slanted-button-background-"]
 button[class*="slanted-button-"]:hover span[class*="slanted-button-text-"] {
   color: #fff;
 }
+.footer-icon:hover>img,
+.footer-icon:hover>div {
+  opacity: 0.5;
+}
+button[class*="footer-icon-"]:hover>img,
+button[class*="footer-icon-"]:hover>div {
+  opacity: 0.5;
+}
